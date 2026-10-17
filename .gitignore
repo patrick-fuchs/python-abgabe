@@ -1,0 +1,31 @@
+# Automatisch erzeugte Python-Dateien
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.ruff_cache/
+
+# Virtuelle Umgebungen
+.venv/
+venv/
+env/
+
+# Persönliche Studiendaten bleiben lokal.
+/daten/
+
+# Lokale Einstellungen und Zugangsdaten
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+
+# Dateien des Betriebssystems
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporäre Dateien und Archive
+*.tmp
+*.log
+*.zip
+!/Fuchs-Patrick_IU14120445_Python.zip
